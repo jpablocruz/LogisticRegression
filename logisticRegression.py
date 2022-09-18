@@ -9,7 +9,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis 
 from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
 #se da uso del datosframe otorgado en clases llamado iris.csv 
 data_iris = pd.read_csv("iris.csv")
